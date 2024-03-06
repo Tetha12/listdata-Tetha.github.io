@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- css.gg -->
+<link href="https://css.gg/css" rel="stylesheet" />
+
+<!-- UNPKG -->
+<link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
+<!-- JSDelivr -->
+<link
+  href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+
+<section class="container">
+    
+    <div id="newtask">
+        <div class="judul">
+            <h1>FORM FORMULIR</h1>
+        </div>
+        <table id="form">
+        <tr>
+            <td class="p">Nama</td>
+            <td>:</td>
+            <td><input type="text" placeholder="Masukkan Nama" class="name"></td>
+        </tr>
+        <tr>
+            <td class="p">Alamat</td>
+            <td>:</td>
+            <td><input type="text" placeholder="Masukkan Alamat" class="address"></td>
+        </tr>
+        <tr>
+            <td class="p">NIM</td>
+            <td>:</td>
+            <td><input type="number" placeholder="Masukkan NIM" class="nim"></td>
+        </tr>
+        <tr>
+            <td class="p">Nilai</td>
+            <td>:</td>
+            <td><input type="number" placeholder="Masukkan Nilai" class="nilai"></td>
+        </tr>
+    </table>
+    
+        <button id="push">Add</button>
+    </div>
+    <div id="task">
+        <div class="search">
+            <label for="">Filter</label> <input type="text" id="search">
+        </div>
+        <table id="table">
+            <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>NIM</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody class="newtable">
+
+        </tbody>
+        </table>
+    </div>
+
+    <button id="clear">Clear</button>
+</section>
+    <script src="main.js"></script>
+    
+</body>
+</html>

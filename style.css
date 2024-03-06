@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: rgb(215,0,167);
+background: linear-gradient(49deg, rgba(215,0,167,1) 29%, rgba(51,0,255,1) 100%);
+}
+
+.container {
+    border: 2px solid white;
+    width: 80%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 30px 40px;
+}
+
+#newtask {
+    position: relative;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+}
+
+#newtask input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#newtask button {
+    background: rgb(215,0,167);
+background: linear-gradient(49deg, rgba(215,0,167,1) 29%, rgba(51,0,255,1) 100%);
+padding: 5px;
+border-radius: 30px;
+width: 80px;
+color: white;
+border: none;
+margin-left: 30px;
+cursor: pointer;
+}
+
+#task {
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.45);
+width: 100%;
+position: relative;
+}
+
+.task {
+    background: rgb(215,0,167);
+    background: linear-gradient(49deg, rgba(215,0,167,1) 29%, rgba(51,0,255,1) 100%);
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.task span {
+    font-weight: 700;   
+}
+
+.task button {
+    background-color: white;
+    border: none;
+    padding: 7px;
+    color: rgba(51,0,255,1);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+#clear {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    width: 79px;
+    height: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: purple;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#table {
+    width: 100%;
+}
+
+#table tr:nth-child(even) {
+    background: rgb(215,0,167);
+    background: linear-gradient(49deg, rgba(215,0,167,1) 29%, rgba(51,0,255,1) 100%);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+#table tr {
+    text-align: center;
+    border-radius: 10px;
+}
+
+#newtask input {
+    width: 200px;
+}
+
+#form {
+    width: 100%;
+}
+
+#form .p {
+    font-weight: 500;
+}
+
+#newtask h1{
+    text-align: center;
+    font-size: 32px;
+    background-image: linear-gradient(49deg, rgba(215,0,167,1) 29%, rgba(51,0,255,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.search {
+    margin: 20px 14px;
+}
